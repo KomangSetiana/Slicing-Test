@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Serif", serif;
+  color: white;
+  background-color: #000;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  text-align: center;
+  font-family: "Noto Serif";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 133.333% */
+  text-transform: uppercase;
+}
+
+.btn-referral {
+  color: #bda069;
+  text-align: center;
+  font-family: "Noto Serif";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 138.462% */
+  text-transform: uppercase;
+  background-color: #fff;
+}
+
+.btn-referral:hover {
+  background-color: #574a31;
+}
+
+.brand-text {
+  color: #fff;
+  font-family: Nunito;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 227.273% */
+  text-transform: uppercase;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.hero-section {
+  position: relative;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.hero-section video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.hero-content {
+  position: absolute;
+  width: 1340px;
+  height: 234px;
+  width: 100vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.74);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.hero-title {
+  color: #bda069;
+
+  text-align: center;
+  font-family: "Noto Serif";
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 45px; /* 128.571% */
+  text-transform: uppercase;
+}
+
+.hero-text {
+  color: #fff;
+
+  text-align: center;
+  font-family: "Noto Serif";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 37.5px */
+}
+
+.content-section {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.content-title {
+  font-family: "Noto Serif";
+  font-size: 2.5rem;
+}
+
+.content-text {
+  font-size: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.btn-activate {
+  background-color: #bda069;
+  color: black;
+  font-family: "Noto Serif";
+  font-weight: 700;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-activate {
+  background-color: #bda069;
+  color: #fff;
+}
+.btn-activate:hover {
+  background-color: #574a31;
+}
+
+/* Media Queries */
+
+@media (min-width: 992px) {
+  .hero-section {
+    height: 90vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+  }
+
+  .hero-text {
+    font-size: 1.2rem;
+  }
+
+  .content-title {
+    font-size: 1.8rem;
+  }
+
+  .content-text {
+    font-size: 1.1rem;
+  }
+
+  .content-section {
+    padding: 60px 40px;
+  }
+}
+
+@media (max-width: 578px) {
+  .hero-title {
+    font-size: 14px;
+  }
+
+  .hero-text {
+    font-size: 8px;
+  }
+
+  .hero-content {
+    width: 400px;
+    height: 150px;
+  }
+
+  .brand-text {
+    font-family: "Noto Serif";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 416.667% */
+    text-transform: uppercase;
+  }
+
+  .logo {
+    width: 45px;
+    height: 45px;
+  }
+  .hero-section {
+    height: 30vh;
+  }
+  .content-section {
+    height: 30vh;
+  }
+  .content-title {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .content-text {
+    font-style: normal;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .btn-activate {
+    background-color: #bda069;
+    color: black;
+    font-family: "Noto Serif";
+    font-weight: 400;
+    padding: 2px 4px;
+    border-radius: 5px;
+    font-size: 10px;
+    width: 156px;
+    border: none;
+    margin-top: 15px;
+  }
+}
